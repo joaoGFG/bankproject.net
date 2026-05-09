@@ -1,0 +1,16 @@
+# Pastas geradas pelo Visual Studio e IDEs
+.vs/
+.vscode/
+
+# Pastas de build
+bin/
+obj/
+TestResults/
+
+# Logs
+Logs/
+*.log
+
+# Arquivos de configurações do usuário
+*.user
+*.suo
