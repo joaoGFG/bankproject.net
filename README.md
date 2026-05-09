@@ -1,13 +1,13 @@
-# Bank Project - API with Messaging ??
+# Bank Project - API with Messaging
 
 This project is the back-end of a digital bank, built in .NET 8, which allows the registration of clients, agencies, and the asynchronous request of banking products using messaging (RabbitMQ).
 
 ## 1. Team Identification
-- **Name:** Jo„o Gabriel 
+- **Name:** Jo√£o Gabriel 
 - **Name:** Caio Lucas 
 
 ## 2. Chosen Banking Product and Justification
-**Chosen Product:** Loan (EmprÈstimo).
+**Chosen Product:** Loan (Empr√©stimo).
 **Justification:** The contracting of a loan should never be synchronous, as it requires consultation and analysis of credit scores in third-party institutions (such as Serasa/SPC). This communication can be slow or suffer math/network instabilities. Shifting this validation to an asynchronous background processing absorbs these impacts without blocking the client's initial flow.
 
 ## 3. Queue Modeling Decision
@@ -57,7 +57,7 @@ Swagger will be accessible at: `http://localhost:5000/swagger` (or the port spec
 
 ```json
 {
-  "nome": "Jo„o Silva",
+  "nome": "Jo√£o Silva",
   "cpf": "12345678901",
   "dataNascimento": "2000-01-01T00:00:00Z",
   "agenciaId": 1
